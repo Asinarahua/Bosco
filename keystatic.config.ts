@@ -8,7 +8,7 @@ import { config, collection, singleton, fields } from "@keystatic/core";
 const usarGitHub = process.env.NODE_ENV === "production" || process.env.NEXT_PUBLIC_CMS_GITHUB === "1";
 
 export default config({
-  storage: usarGitHub ? { kind: "github", repo: "GIAN2015/Bosco" } : { kind: "local" },
+  storage: usarGitHub ? { kind: "github", repo: "Asinarahua/Bosco" } : { kind: "local" },
   ui: {
     brand: { name: "BOSQO" },
     navigation: {
